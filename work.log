@@ -1,0 +1,8 @@
+# put flickr api into neuraltalk2 docker image
+Assume you have docker images from here https://github.com/beeva-enriqueotero/docker-neuraltalk2 for neuraltalk2
+Then in the container
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh # to avoid mass with neuraltalk2 env
+
+
+
