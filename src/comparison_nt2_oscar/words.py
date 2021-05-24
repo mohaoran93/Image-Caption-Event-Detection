@@ -44,6 +44,8 @@ for caption in nt2_captions:
 
 print(len(oscar_words))
 print(len(nt2_captions))
-
+with open("oscar_words.json",'w') as oscar, open("nt2_words.json","w") as nt2:
+    json.dump(oscar_words,oscar)
+    json.dump(nt2_captions,nt2)
 
 # step 2 count word frequency for each
