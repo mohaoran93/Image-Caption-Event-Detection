@@ -43,7 +43,7 @@ y2 = np.log(df2['count'][0:top])
 
 fig, ax = plt.subplots()
 plt.plot(x1,y1,"r^",x2,y2,"bs")
-
+ax.legend(['NeuralTalk','Oscar'])
 ax.set(xlabel='top words', ylabel='len(word_frequency)',
        title='words frequency of Oscar(Blue) and NeuralTalk(Red) on flickr30k')
 # print("y1: ", list(y1))
